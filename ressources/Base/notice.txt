@@ -1,0 +1,42 @@
+/**
+* NOTICE(le minimum a faire !)
+* Pour faire un CRUD, n'importe lequelle
+* on inclut d'abord les deux fichiers DatabaseConnexion.php et CRUD.php dans notre fichier.
+* Ensuite faites la connexion en creant un objet de type DatabaseConnexion
+* Puis creer un objet de type CRUD avec comme parametre l'objet de type DatabaseConnexion
+* ensuite creer un variable et affecter a cette variable la requete de creation de votre table
+* enfin utiliser la methode createtable() avec comme argument la variable precedente 
+*/
+
+/**
+* NOTICE (pour CREATE)
+* Pour inserer quelque chose dans la table
+* on utilise la methode create(), avec deux arguments que sont :
+* le nom de la table et un tableau
+* le tableau doit etre du genre [ 'colonne1' => valeur1, 'colonne2' => valeur2, etc ]
+*/
+
+/**
+* NOTICE (pour READ)
+* Pour lire les valeurs se trouvant dans la table
+* on uilise la methode read() avec comme argument le nom de la table
+* on l'affecte a un variable ou bien on l'affiche directement
+*/
+
+/**
+* NOTICE (pour UPDATE)
+* Pour modifier un element de la table
+* on utilise la methode update() avec comme parametre le nom de la table,
+* un tableau avec les valeurs a modifier et enfin la condition sous forme de chaine
+*/
+
+/**
+* NOTICE (pour DELETE)
+* Pour supprimer un element de la table
+* on utilise la methode delete() avec comme parametre le nom de la table, et la condition
+*/
+
+/**
+* NOTEZ BIEN QUE !
+* Vous n'avez besoin que des deux fichiers DatabaseConnexion.php et CRUD.php.
+*/
